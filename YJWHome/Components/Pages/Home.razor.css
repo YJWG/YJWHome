@@ -1,0 +1,22 @@
+﻿body {
+    background-color: aqua;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    width: 90%;
+    border-radius: 10px;
+}
+
+li {
+    color: red;
+}
+
+.text1 {
+    color: blue;
+}
+
+#text2 {
+    color: orange;
+}
