@@ -2,26 +2,22 @@
 
 <div class="page">
     <div class="sidebar">
-            <NavMenu />
+        <NavMenu />
     </div>
-    <div>
-        <header>
-            <div class="top-row px-4">
-                    <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-            </div>
-        </header>
-        <main >
-            <article class="content px-4">
-                @Body
-            </article>
-        </main>
-        <footer>
-            이 홈페이지는 웹프로그래밍 수업 실습용으로 제작되었습니다. <br>
-            양지원 (<a href="mailto:yjw940421@gmail.com">yjw940421@gmail.com</a>)
-        </footer>
-        </div>
-    
 
+    <main>
+        <div class="top-row px-4">
+            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+
+        <div>
+            푸터
+        </div>
+    </main>
 </div>
 
 <div id="blazor-error-ui">

@@ -1,0 +1,48 @@
+﻿div {
+    border: 1px solid gray;
+    width: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 2ch;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* body {background-color: aqua;} */
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+}
+
+@font-face {
+    font-family: 'KyoboHandwriting2023wsa';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/KyoboHandwriting2023wsa.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'KyoboHandwriting2023wsa';
+    text-shadow: 3px 3px 5px orange;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 3px 3px 5px orange;
+}
+
+    a:hover {
+        color: red;
+        text-shadow: 3px 3px 5px blue, -3px -3px 5px purple;
+    }
