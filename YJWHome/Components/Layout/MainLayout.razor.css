@@ -36,6 +36,8 @@ main {
     flex: 1;
 }
 
+
+
 @media (max-width: 640.98px) {
     .top-row {
         justify-content: space-between;
