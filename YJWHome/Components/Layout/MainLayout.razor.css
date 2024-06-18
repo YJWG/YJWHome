@@ -36,6 +36,11 @@ main {
     flex: 1;
 }
 
+footer {
+    background-color: #f7f7f7;
+    text-align: center
+}
+
 
 
 @media (max-width: 640.98px) {
