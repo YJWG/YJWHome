@@ -2,15 +2,10 @@
 
 <head>
     <PageTitle>Album</PageTitle>
-    <link rel="stylesheet" href="./a.css">
-    <script src="https://kit.fontawesome.com/5077265a6a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <h1>여기는 앨범방</h1>
-    <br>
-    @InalbumCount().Length
-    <hr>
     @foreach (FileInfo albumimage in @InalbumCount())
     {
         <div>
